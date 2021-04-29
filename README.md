@@ -5,7 +5,7 @@ This implementation was made by EPFL Telecommunication lab and its available als
 https://www.epfl.ch/labs/tcl/resources-and-sw/lora-phy/
 
 
-ARQUIVOS:
+Files:
 
 Tx_Rx.grc
 - a complete LoRa transmision, with no noise, no perpendicular signals.
