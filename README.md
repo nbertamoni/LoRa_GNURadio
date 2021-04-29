@@ -6,6 +6,7 @@ https://www.epfl.ch/labs/tcl/resources-and-sw/lora-phy/
 
 
 ARQUIVOS:
+
 Tx_Rx.grc
 - a complete LoRa transmision, with no noise, no perpendicular signals.
 
