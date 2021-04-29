@@ -1,11 +1,11 @@
 # LoRa_GNURadio
-This is a LoRa implementation in GNU Radio 3.7
+##This is a LoRa implementation in GNU Radio 3.7
 
-This implementation was made by EPFL Telecommunication lab and its available also here:
-https://www.epfl.ch/labs/tcl/resources-and-sw/lora-phy/
+**This implementation was made by EPFL Telecommunication lab and its available also here:
+https://www.epfl.ch/labs/tcl/resources-and-sw/lora-phy/**
 
 
-Files:
+###**FILES:**
 
 Tx_Rx.grc
 - a complete LoRa transmision, with no noise, no perpendicular signals.
