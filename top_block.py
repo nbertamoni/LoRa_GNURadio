@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Wed Apr 28 21:52:07 2021
+# Generated: Thu Jul 29 06:17:12 2021
 ##################################################
 
 from distutils.version import StrictVersion
@@ -122,7 +122,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.qtgui_time_sink_x_1_0_0_0 = qtgui.time_sink_f(
         	1024, #size
         	samp_rate, #samp_rate
-        	"cosine original", #name
+        	"Cosine", #name
         	1 #number of inputs
         )
         self.qtgui_time_sink_x_1_0_0_0.set_update_time(0.10)
@@ -170,7 +170,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.qtgui_time_sink_x_1_0_0 = qtgui.time_sink_f(
         	1024, #size
         	samp_rate, #samp_rate
-        	"noise original", #name
+        	"Noise", #name
         	1 #number of inputs
         )
         self.qtgui_time_sink_x_1_0_0.set_update_time(0.10)
