@@ -15,4 +15,7 @@ Gaussian_Noise_Time_Demo.grc
 - a demonstration of rms value of gaussian noise, sine wave rms value and the sum of them.
 
 Tx_Rx_Perpendicular_sf.grc
-- a transmission with sampling factor perpendicular signals 
+- a transmission with sampling factor perpendicular signals
+
+BER.grc
+- A small demonstration of "Err measures" on Bit Error Couting to make the proper B.E. Rate. 
