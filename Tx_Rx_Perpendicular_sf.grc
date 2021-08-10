@@ -550,7 +550,7 @@
     </param>
     <param>
       <key>msg</key>
-      <value>pmt.intern("o futuro ja chegou ne")</value>
+      <value>pmt.intern("o futuro ja chegou")</value>
     </param>
     <param>
       <key>minoutbuf</key>
@@ -2544,7 +2544,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(56, 128)</value>
+      <value>(72, 152)</value>
     </param>
     <param>
       <key>_rotation</key>
