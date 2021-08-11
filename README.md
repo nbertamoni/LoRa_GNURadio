@@ -18,4 +18,4 @@ Tx_Rx_Perpendicular_sf.grc
 - a transmission with sampling factor perpendicular signals
 
 BER.grc
-- A small demonstration of "Err measures" on Bit Error Couting to make the proper B.E. Rate. 
+- A small demonstration of "Err measures" block on Bit Error Couting to make the proper B.E. Rate. 
