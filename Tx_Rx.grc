@@ -147,33 +147,6 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(680, 4)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>frame_period</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>200</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
       <value>(600, 4)</value>
     </param>
     <param>
@@ -186,7 +159,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>True</value>
+      <value>False</value>
     </param>
   </block>
   <block>
@@ -255,33 +228,6 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(864, 4)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>ruido</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
       <value>(176, 4)</value>
     </param>
     <param>
@@ -321,7 +267,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>10</value>
+      <value>7</value>
     </param>
   </block>
   <block>
@@ -344,7 +290,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1168, 920)</value>
+      <value>(1096, 248)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -391,7 +337,7 @@
     </param>
     <param>
       <key>msg</key>
-      <value>pmt.intern("O beija flor cheirou a rosa")</value>
+      <value>pmt.intern("Hello")</value>
     </param>
     <param>
       <key>minoutbuf</key>
@@ -477,7 +423,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(200, 652)</value>
+      <value>(168, 236)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -532,7 +478,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(376, 628)</value>
+      <value>(80, 292)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -630,7 +576,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1144, 776)</value>
+      <value>(1144, 600)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -669,7 +615,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(712, 760)</value>
+      <value>(712, 664)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -712,7 +658,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(976, 888)</value>
+      <value>(1048, 832)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -755,7 +701,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(320, 712)</value>
+      <value>(112, 768)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -810,7 +756,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(32, 752)</value>
+      <value>(112, 384)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -943,7 +889,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1128, 664)</value>
+      <value>(824, 296)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1084,7 +1030,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(488, 856)</value>
+      <value>(400, 832)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1291,7 +1237,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(32, 628)</value>
+      <value>(8, 236)</value>
     </param>
     <param>
       <key>_rotation</key>
