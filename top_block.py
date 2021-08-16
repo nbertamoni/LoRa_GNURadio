@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Wed Aug 11 21:43:03 2021
+# Generated: Mon Aug 16 19:44:44 2021
 ##################################################
 
 from distutils.version import StrictVersion
@@ -88,6 +88,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.lora_sdr_gray_decode_0 = lora_sdr.gray_decode(sf)
         self.lora_sdr_frame_sync_0 = lora_sdr.frame_sync(samp_rate, bw, sf, impl_head)
         self.lora_sdr_fft_demod_0 = lora_sdr.fft_demod(samp_rate, bw, sf, impl_head)
+        self.lora_sdr_err_measures_0 = lora_sdr.err_measures()
         self.lora_sdr_dewhitening_0 = lora_sdr.dewhitening()
         self.lora_sdr_deinterleaver_0 = lora_sdr.deinterleaver(sf)
         self.lora_sdr_crc_verif_0 = lora_sdr.crc_verif()
@@ -97,17 +98,17 @@ class top_block(gr.top_block, Qt.QWidget):
         self.blocks_throttle_0_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
         self.blocks_message_strobe_0 = blocks.message_strobe(pmt.intern("Hello"), 2000)
-        self.blocks_message_debug_0 = blocks.message_debug()
 
         ##################################################
         # Connections
         ##################################################
         self.msg_connect((self.blocks_message_strobe_0, 'strobe'), (self.lora_sdr_add_crc_0, 'msg'))
+        self.msg_connect((self.blocks_message_strobe_0, 'strobe'), (self.lora_sdr_err_measures_0, 'ref'))
         self.msg_connect((self.blocks_message_strobe_0, 'strobe'), (self.lora_sdr_header_0, 'msg'))
         self.msg_connect((self.blocks_message_strobe_0, 'strobe'), (self.lora_sdr_interleaver_0, 'msg'))
         self.msg_connect((self.blocks_message_strobe_0, 'strobe'), (self.lora_sdr_modulate_0, 'msg'))
         self.msg_connect((self.blocks_message_strobe_0, 'strobe'), (self.lora_sdr_whitening_0, 'msg'))
-        self.msg_connect((self.lora_sdr_crc_verif_0, 'msg'), (self.blocks_message_debug_0, 'print'))
+        self.msg_connect((self.lora_sdr_crc_verif_0, 'msg'), (self.lora_sdr_err_measures_0, 'msg'))
         self.msg_connect((self.lora_sdr_frame_sync_0, 'new_frame'), (self.lora_sdr_deinterleaver_0, 'new_frame'))
         self.msg_connect((self.lora_sdr_frame_sync_0, 'new_frame'), (self.lora_sdr_dewhitening_0, 'new_frame'))
         self.msg_connect((self.lora_sdr_frame_sync_0, 'new_frame'), (self.lora_sdr_fft_demod_0, 'new_frame'))
