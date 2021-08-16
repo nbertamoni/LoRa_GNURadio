@@ -271,37 +271,6 @@
     </param>
   </block>
   <block>
-    <key>blocks_message_debug</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1096, 248)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_message_debug_0</value>
-    </param>
-  </block>
-  <block>
     <key>blocks_message_strobe</key>
     <param>
       <key>alias</key>
@@ -667,6 +636,45 @@
     <param>
       <key>id</key>
       <value>lora_sdr_dewhitening_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>lora_sdr_err_measures</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1096, 328)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>lora_sdr_err_measures_0</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1260,6 +1268,12 @@
   </connection>
   <connection>
     <source_block_id>blocks_message_strobe_0</source_block_id>
+    <sink_block_id>lora_sdr_err_measures_0</sink_block_id>
+    <source_key>strobe</source_key>
+    <sink_key>ref</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_message_strobe_0</source_block_id>
     <sink_block_id>lora_sdr_header_0</sink_block_id>
     <source_key>strobe</source_key>
     <sink_key>msg</sink_key>
@@ -1308,9 +1322,9 @@
   </connection>
   <connection>
     <source_block_id>lora_sdr_crc_verif_0</source_block_id>
-    <sink_block_id>blocks_message_debug_0</sink_block_id>
+    <sink_block_id>lora_sdr_err_measures_0</sink_block_id>
     <source_key>msg</source_key>
-    <sink_key>print</sink_key>
+    <sink_key>msg</sink_key>
   </connection>
   <connection>
     <source_block_id>lora_sdr_deinterleaver_0</source_block_id>
