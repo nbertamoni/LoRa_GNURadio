@@ -22,3 +22,6 @@ BER.grc
 
 Tx_Rx_gaussian_noise.grc
 - A transmission with gaussian noise added to the channel.
+
+Tx_Rx_transmission_amplitude.grc
+- A transmission showing clear signal amplitude.
