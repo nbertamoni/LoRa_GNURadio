@@ -28,3 +28,9 @@ Tx_Rx_transmission_amplitude.grc
 
 Random_Message_Random_Delay.grc
 - Generate random sequence of bytes at random intervals with random lenght.
+
+	After some google, it is not random.
+	https://www.gnuradio.org/doc/doxygen-3.2/pmt_8h-source.html
+	lines 00086 and 00087 shows that:
+	extern const pmt_t PMT_T;       //< \#t : boolean true constant
+	extern const pmt_t PMT_F;       //< \#f : boolean false constant 
