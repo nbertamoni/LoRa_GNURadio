@@ -27,4 +27,4 @@ Tx_Rx_transmission_amplitude.grc
 - A transmission showing clear signal amplitude. 1,8pico pico as far as I can see.
 
 Random_Message_Random_Delay.grc
-- Generate random sequence of bytes at random intervals, with random lenght.
+- Generate random sequence of bytes at random intervals with random lenght.
