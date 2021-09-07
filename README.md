@@ -2,7 +2,7 @@
 
 ## This is a LoRa implementation in GNU Radio 3.7
 
-**This implementation was made by EPFL Telecommunication lab and its available also here:**
+**This implementation was made by EPFL Telecommunication lab and it is available also here:**
 **https://www.epfl.ch/labs/tcl/resources-and-sw/lora-phy/**
 
 
@@ -18,10 +18,13 @@ Tx_Rx_Perpendicular_sf.grc
 - A transmission with sampling factor perpendicular signals
 
 BER.grc
-- A small demonstration of "Err measures" block on Bit Error Couting to make the proper bit error rate. 
+- A small demonstration of "Err measures" block on Bit Error Couting to make the proper bit error rate
 
 Tx_Rx_gaussian_noise.grc
 - A transmission with gaussian noise added to the channel.
 
 Tx_Rx_transmission_amplitude.grc
-- A transmission showing clear signal amplitude. 1,8pico pico as far as I can see
+- A transmission showing clear signal amplitude. 1,8pico pico as far as I can see.
+
+Random_Message_Random_Delay.grc
+- Generate random sequence of bytes at random intervals, with random lenght.
