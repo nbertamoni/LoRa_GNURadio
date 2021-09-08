@@ -31,6 +31,10 @@ Random_Message_Random_Delay.grc
 
 	After some google, it is not random.
 	https://www.gnuradio.org/doc/doxygen-3.2/pmt_8h-source.html
+	https://www.gnuradio.org/doc/sphinx-3.7.0/pmt/boolean.html
 	lines 00086 and 00087 shows that:
 	extern const pmt_t PMT_T;       //< \#t : boolean true constant
 	extern const pmt_t PMT_F;       //< \#f : boolean false constant 
+
+Tx_RX_Char_seq.grc
+- Transmission with char sequence
