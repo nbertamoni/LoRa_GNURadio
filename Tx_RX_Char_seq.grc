@@ -348,7 +348,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(24, 68)</value>
+      <value>(152, 60)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -591,7 +591,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(288, 84)</value>
+      <value>(464, 76)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1260,6 +1260,37 @@
       <value>0</value>
     </param>
   </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1056, 684)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_0</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>reparar que o err measures não está sincronizado ainda</value>
+    </param>
+  </block>
   <connection>
     <source_block_id>blocks_message_strobe_random_0_1</source_block_id>
     <sink_block_id>lora_sdr_data_source_0</sink_block_id>
@@ -1283,6 +1314,12 @@
     <sink_block_id>lora_sdr_hamming_enc_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>lora_sdr_crc_verif_0</source_block_id>
+    <sink_block_id>blocks_message_strobe_random_0_1</sink_block_id>
+    <source_key>msg</source_key>
+    <sink_key>set_msg</sink_key>
   </connection>
   <connection>
     <source_block_id>lora_sdr_crc_verif_0</source_block_id>
